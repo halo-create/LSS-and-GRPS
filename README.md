@@ -14,16 +14,16 @@ This program requires R 4.0, several R packages. Versions the R and R packages h
 We have provided example input data in the 'input' folder. You can run the example file using the code provided in the 'code' folder. The outputs generated from running above are provided in the 'output' folder.
 
 ***Input***\
-gwassummary_example.txt (GWAS summary statistics)\
-kidney_p2g.rds (Regulatory network)\
-locus_example.txt (Lead SNP for the locus)
+locus_example_gwas_information.txt (GWAS summary statistics)\
+kidney_scATACseq_peaks.txt (Functional annotation)\
+kidney_regulation.rds (Regulatory network)
 
 ***output***\
-locus_example_information.csv (All SNPs in each locus)\
-locus_example_lss_profile.pdf (Quantile-quantile plot for each Locus)\
+locus_example_lss_profile (Quantile-quantile plot for each locus)\
 locus_example_lss_candidate_variants.csv (Candidate causal variants from LSS)\
-locus_example_lss_functional_variants.csv (Identification of functional SNPs based on regulatory network)\
-locus_example_GRPS_results.csv（GRPS results）
+locus_example_lss_functional_variants.csv (Identification of functional SNPs based on functional annotation)\
+locus_example_lss_variants_regulated_genes.csv (Identification of candidate causal genes based on regulatory network)\
+locus_example_grps_result.txt（GRPS results）
 
 Expected runtime for the demo on a normal desktop computer is approximately 10 to 15 minutes
 
